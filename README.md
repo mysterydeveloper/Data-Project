@@ -13,9 +13,12 @@ There are six values on each line, which are as follows
 
 | Field Name        | About           |
 | ------------- |:-------------:| 
-| BSSID     | right-aligned | 
-| SSID   | centered      |  
-| zebra stripes | are neat      | 
+| BSSID     | The unique address that identifies the access point that creates the Wifi hotspot. | 
+| SSID   |  the name of the network (for legal reasons it isnt allowed to be shown)     |  
+| CHANNEL | The channel the wifi hotspot is on      | 
+| RADIO TYPE |  The type of radio the wifi hotspot is using    | 
+| ENCRYPTION | If the wifi hotspot is encrypted or not    | 
+| LOCATION | location that the wifi hotspot is.    | 
 
 ## List of cars for a given year
 You can get a list of cars purchased in a given year using the GET method at the following URL:
