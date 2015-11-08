@@ -1,18 +1,21 @@
 # Data-Project
-# Project title
+# Wifi Hotspots in Dublin API
 ## Data Representation and Querying Project 2015
-### Student Name
+### Manus Duggan
 
 ## Introduction
-This project provides the design and documentation for the dataset "Dataset title" which is available at [data.gov.ie](http://data.gov.ie)...
+This project provides the design and documentation for the dataset "WiFi Hotspots in Dublin City" which is available at [data.gov.ie](http://data.gov.ie)...
 
 ## About the data
-This dataset was received in Comma Separated Values (CSV) format, and was downloaded from [*insert page name*](insert url).
-The CSV file contains 1001 rows, the first being a header row with the names of each field.
-There are six values on each line, which are as follows:
-    - **year**: the year that the car was purchased.
-    - **price**: the price of the car.
-    ...
+This dataset was received in Comma Separated Values (CSV) format, and was downloaded from [*WiFi Hotspots in Dublin City*](https://data.gov.ie/dataset/wifi-hotspots-in-dublin-city).
+The CSV file contains 17026 rows, the first being a header row with the names of each field.
+There are six values on each line, which are as follows
+
+| Field Name        | About           |
+| ------------- |:-------------:| 
+| BSSID     | right-aligned | 
+| SSID   | centered      |  
+| zebra stripes | are neat      | 
 
 ## List of cars for a given year
 You can get a list of cars purchased in a given year using the GET method at the following URL:
