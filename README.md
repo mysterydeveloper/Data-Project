@@ -47,7 +47,7 @@ An example of a response would be:
 ![alt text](GET -wifihotspot-findByEncypted.png "POST /wifihotspot/{BSSID}")
 
 ###GET / wifihotspot /findByChannel Finds wifi hotspot by Channel No.
-
+![alt text](GET -wifihotspot-findByChannel.png "POST /wifihotspot/{BSSID}")
 
 ###DELETE / wifihotspot /{ BSSID} Deletes a wifi hotspot by BSSID
 
