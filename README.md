@@ -40,23 +40,66 @@ An example of a response would be:
 ###POST /wifihotspot 
 ![alt text](post-wifihotspot.png "Post /wifihotspot")
 
+_Request Url_
+
+__Response Body__
+
+_Response Code_
+
 ###PUT / wifihotspot
 ![alt text](put-wifihotspot.png "Put /wifihotspot")
+
+_Request Url_
+
+__Response Body__
+
+_Response Code_
+
 
 ###GET / wifihotspot /findByEncypted 
 ![alt text](GET -wifihotspot-findByEncypted.png "GET /wifihotspot/findByEncypted")
 
-###GET / wifihotspot /findByChannel Finds wifi hotspot by Channel No.
+_Request Url_
+
+__Response Body__
+
+_Response Code_
+
+###GET / wifihotspot /findByChannel 
 ![alt text](GET -wifihotspot-findByChannel.png "GET /wifihotspot/findByChannel")
+
+_Request Url_
+
+__Response Body__
+
+_Response Code_
 
 ###DELETE / wifihotspot /{ BSSID} Deletes a wifi hotspot by BSSID
 ![alt text](Delete-wifihotspot-{BSSID}.png "DELETE /wifihotspot/{BSSID}")
 
-###GET / wifihotspot /{ BSSID } Find wifi hotspot by BSSID
+_Request Url_
+
+__Response Body__
+
+_Response Code_
+
+###GET / wifihotspot /{ BSSID }
 ![alt text](GET  -wifihotspot-{ BSSID }.png "GET /wifihotspot/{BSSID}")
+
+_Request Url_
+
+__Response Body__
+
+_Response Code_
 
 ###POST / wifihotspot /{ BSSID }
 ![alt text](pos-wifihotspot-{BSSID}.png "POST /wifihotspot/{BSSID}")
+
+_Request Url_
+
+__Response Body__
+
+_Response Code_
 
 
 
