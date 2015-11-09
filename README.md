@@ -37,7 +37,7 @@ An example of a response would be:
     [ {"price": 20000, "model": "Skoda", ...}, {...}, ...]
     ```  
 ## Methods
-###POST /wifihotspot Add a new wifi hotspot to the store
+###POST /wifihotspot Add a new wifi hotspot to the database
 
 ###PUT / wifihotspot Update an existing wifi hotspot
 
