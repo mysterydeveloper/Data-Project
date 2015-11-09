@@ -41,7 +41,7 @@ An example of a response would be:
 ![alt text](post-wifihotspot.png "Post /wifihotspot")
 
 ###PUT / wifihotspot Update an existing wifi hotspot
-
+![alt text](put-wifihotspot.png "Put /wifihotspot")
 
 ###GET / wifihotspot /findByEncypted Finds wifi hotspot by Encypted status
 
@@ -52,6 +52,7 @@ An example of a response would be:
 ###GET / wifihotspot /{ BSSID } Find wifi hotspot by BSSID
 
 ###POST / wifihotspot /{ BSSID } Updates a BSSID in the wifi hotspot with form data
+![alt text](pos-wifihotspot-{BSSID}.png "POST /wifihotspot/{BSSID}")
 
 
 
