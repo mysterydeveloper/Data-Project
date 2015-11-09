@@ -36,4 +36,19 @@ An example of a response would be:
     ```json
     [ {"price": 20000, "model": "Skoda", ...}, {...}, ...]
     ```  
+## Methods
+###POST /wifihotspot Add a new wifi hotspot to the store
+
+###PUT / wifihotspot Update an existing wifi hotspot
+
+###GET / wifihotspot /findByEncypted Finds wifi hotspot by Encypted status
+
+###GET / wifihotspot /findByChannel Finds wifi hotspot by Channel No.
+
+###DELETE / wifihotspot /{ BSSID} Deletes a wifi hotspot by BSSID
+
+###GET / wifihotspot /{ BSSID } Find wifi hotspot by BSSID
+
+###POST / wifihotspot /{ BSSID } Updates a BSSID in the wifi hotspot with form data
+
   
