@@ -53,7 +53,7 @@ An example of a response would be:
 ![alt text](Delete-wifihotspot-{BSSID}.png "DELETE /wifihotspot/{BSSID}")
 
 ###GET / wifihotspot /{ BSSID } Find wifi hotspot by BSSID
-![alt text](GET -wifihotspot-{ BSSID}.png "GET /wifihotspot/{BSSID}")
+![alt text](GET  -wifihotspot-{ BSSID }.png "GET /wifihotspot/{BSSID}")
 
 ###POST / wifihotspot /{ BSSID }
 ![alt text](pos-wifihotspot-{BSSID}.png "POST /wifihotspot/{BSSID}")
