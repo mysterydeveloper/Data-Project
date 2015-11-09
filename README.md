@@ -44,16 +44,16 @@ An example of a response would be:
 ![alt text](put-wifihotspot.png "Put /wifihotspot")
 
 ###GET / wifihotspot /findByEncypted 
-![alt text](GET -wifihotspot-findByEncypted.png "POST /wifihotspot/{BSSID}")
+![alt text](GET -wifihotspot-findByEncypted.png "GET /wifihotspot/findByEncypted")
 
 ###GET / wifihotspot /findByChannel Finds wifi hotspot by Channel No.
-![alt text](GET -wifihotspot-findByChannel.png "POST /wifihotspot/{BSSID}")
+![alt text](GET -wifihotspot-findByChannel.png "GET /wifihotspot/findByChannel")
 
 ###DELETE / wifihotspot /{ BSSID} Deletes a wifi hotspot by BSSID
-
+![alt text](Delete-wifihotspot-{BSSID}.png "DELETE /wifihotspot/{BSSID}")
 
 ###GET / wifihotspot /{ BSSID } Find wifi hotspot by BSSID
-
+![alt text](GET -wifihotspot-{ BSSID}.png "GET /wifihotspot/{BSSID}")
 
 ###POST / wifihotspot /{ BSSID }
 ![alt text](pos-wifihotspot-{BSSID}.png "POST /wifihotspot/{BSSID}")
