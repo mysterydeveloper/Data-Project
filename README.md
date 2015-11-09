@@ -21,86 +21,83 @@ There are six values on each line, which are as follows
 | LATTITUDE | Lattitude that the wifi hotspot is.    | 
 | LONGTITUDE | Longtitude that the wifi hotspot is.    | 
 
-## List of cars for a given year
-You can get a list of cars purchased in a given year using the GET method at the following URL:
-*http://carsapi.com/year/[year]*
-where you replace [year] with the year.
-For example, the URL:
-*http://carsapi.com/year/2005*
-will return a list of cars purchased in 2005.
-The data will be returned in JSON format, with the following properties for each car:
-    - *price*: the price of the car.
-    - *model*: the model of the car.
-    ...
-An example of a response would be:
-    ```json
-    [ {"price": 20000, "model": "Skoda", ...}, {...}, ...]
-    ```  
 ## Methods
 ###POST /wifihotspot 
 ![alt text](post-wifihotspot.png "Post /wifihotspot")
 
-_Request Url_
+* ####_Request Url_
+ http://Dublin.wifihotspot.ie/v1/wifihotspot
 
-__Response Body__
+* ####__Response Body__
 
-_Response Code_
+* ####_Response Code_
+200
 
 ###PUT / wifihotspot
 ![alt text](put-wifihotspot.png "Put /wifihotspot")
 
-_Request Url_
+* ####_Request Url_
+  http://Dublin.wifihotspot.ie/v1/wifihotspot
 
-__Response Body__
+* ####__Response Body__
 
-_Response Code_
-
+* ####_Response Code_
+200
 
 ###GET / wifihotspot /findByEncypted 
 ![alt text](GET -wifihotspot-findByEncypted.png "GET /wifihotspot/findByEncypted")
 
-_Request Url_
+* ####_Request Url_
+ http://Dublin.wifihotspot.ie/v1/wifihotspot/findByEncypted?encryption=no
 
-__Response Body__
+* ####__Response Body__
 
-_Response Code_
+* ####_Response Code_
+200
 
 ###GET / wifihotspot /findByChannel 
 ![alt text](GET -wifihotspot-findByChannel.png "GET /wifihotspot/findByChannel")
 
-_Request Url_
+* ####_Request Url_
+ http://Dublin.wifihotspot.ie/v1/wifihotspot/findByChannel?channel=['0','1','2']
 
-__Response Body__
+* ####__Response Body__
 
-_Response Code_
+* ####_Response Code_
+200
 
 ###DELETE / wifihotspot /{ BSSID} Deletes a wifi hotspot by BSSID
 ![alt text](Delete-wifihotspot-{BSSID}.png "DELETE /wifihotspot/{BSSID}")
 
-_Request Url_
+* ####_Request Url_
+http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
 
-__Response Body__
+* ####__Response Body__
 
-_Response Code_
+* ####_Response Code_
+200
 
 ###GET / wifihotspot /{ BSSID }
 ![alt text](GET  -wifihotspot-{ BSSID }.png "GET /wifihotspot/{BSSID}")
 
-_Request Url_
+* ####_Request Url_
+http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
 
-__Response Body__
+* ####__Response Body__
 
-_Response Code_
+* ####_Response Code_
+200
 
 ###POST / wifihotspot /{ BSSID }
 ![alt text](pos-wifihotspot-{BSSID}.png "POST /wifihotspot/{BSSID}")
 
-_Request Url_
+* ####_Request Url_
+ http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
 
-__Response Body__
+* ####__Response Body__
 
-_Response Code_
-
+* ####_Response Code_
+200
 
 
   
