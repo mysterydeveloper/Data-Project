@@ -4,7 +4,7 @@
 ### Manus Duggan
 
 ## Introduction
-This project provides the design and documentation for the dataset "WiFi Hotspots in Dublin City" which is available at [data.gov.ie](http://data.gov.ie)...
+This project provides the design and documentation for the dataset "WiFi Hotspots in Dublin City" which is available at [data.gov.ie](http://data.gov.ie)
 
 ## About the data
 This dataset was received in Comma Separated Values (CSV) format, and was downloaded from [*WiFi Hotspots in Dublin City*](https://data.gov.ie/dataset/wifi-hotspots-in-dublin-city).
@@ -19,7 +19,7 @@ There are six values on each line, which are as follows
 | RADIO TYPE |  The type of radio the wifi hotspot is using    | 
 | ENCRYPTION | If the wifi hotspot is encrypted or not    | 
 | LATTITUDE | Lattitude that the wifi hotspot is.    | 
-| LONGTITTUBE | LONGTITUDE that the wifi hotspot is.    | 
+| LONGTITUDE | Longtitude that the wifi hotspot is.    | 
 
 ## List of cars for a given year
 You can get a list of cars purchased in a given year using the GET method at the following URL:
