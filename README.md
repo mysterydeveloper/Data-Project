@@ -40,18 +40,22 @@ An example of a response would be:
 ###POST /wifihotspot 
 ![alt text](post-wifihotspot.png "Post /wifihotspot")
 
-###PUT / wifihotspot Update an existing wifi hotspot
+###PUT / wifihotspot
 ![alt text](put-wifihotspot.png "Put /wifihotspot")
 
-###GET / wifihotspot /findByEncypted Finds wifi hotspot by Encypted status
+###GET / wifihotspot /findByEncypted 
+![alt text](GET -wifihotspot-findByEncypted.png "POST /wifihotspot/{BSSID}")
 
 ###GET / wifihotspot /findByChannel Finds wifi hotspot by Channel No.
 
+
 ###DELETE / wifihotspot /{ BSSID} Deletes a wifi hotspot by BSSID
+
 
 ###GET / wifihotspot /{ BSSID } Find wifi hotspot by BSSID
 
-###POST / wifihotspot /{ BSSID } Updates a BSSID in the wifi hotspot with form data
+
+###POST / wifihotspot /{ BSSID }
 ![alt text](pos-wifihotspot-{BSSID}.png "POST /wifihotspot/{BSSID}")
 
 
