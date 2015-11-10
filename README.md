@@ -113,7 +113,7 @@ There are six values on each line, which are as follows
  http://Dublin.wifihotspot.ie/v1/wifihotspot/findByChannel?channel=['0','1','2']
 
 * ####__Response Body__
->no content
+
 
 * ####_Response Code_
 >200
@@ -125,6 +125,7 @@ There are six values on each line, which are as follows
 http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
 
 * ####__Response Body__
+>no content
 
 * ####_Response Code_
 >200
