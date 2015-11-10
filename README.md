@@ -37,8 +37,8 @@ There are six values on each line, which are as follows
        "Channel":"1",
        "RadioType":"OFDM24",
        "Encryption":"YES",
-       "Longitudde":"5320.6598N",
-       "lattitude":"00615.9477W"
+       "lattitude":"00615.9477W",
+       "Longitudde":"5320.6598N"
      }
   ]
  ```
@@ -61,8 +61,8 @@ There are six values on each line, which are as follows
        "Channel":"1",
        "RadioType":"OFDM24",
        "Encryption":"YES",
-       "Longitudde":"5320.6598N",
-       "lattitude":"00615.9477W"
+       "lattitude":"00615.9477W",
+       "Longitudde":"5320.6598N"
      }
   ]
  ```
@@ -85,8 +85,8 @@ There are six values on each line, which are as follows
        "Channel":"6",
        "RadioType":"OFDM24",
        "Encryption":"None",
-       "Longitudde":"5320.6587N",
-       "lattitude":"00615.9583W"
+       "lattitude":"00615.9583W",
+       "Longitudde":"5320.6587N"
      }
      {
        "BSSID":"00:27:22:82:9a:c3",
@@ -94,8 +94,8 @@ There are six values on each line, which are as follows
        "Channel":"11",
        "RadioType":"OFDM24",
        "Encryption":"None",
-       "Longitudde":"5320.7018N",
-       "lattitude":"00615.9498W"
+       "lattitude":"00615.9498W",
+       "Longitudde":"5320.7018N"
      }
      .
      .
