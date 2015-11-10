@@ -29,6 +29,19 @@ There are six values on each line, which are as follows
  http://Dublin.wifihotspot.ie/v1/wifihotspot
 
 * ####__Response Body__
+ ```json
+ [
+    {
+       "BSSID":"00:24:92:5e:86:30",
+       "SSID":"        ",
+       "Channel":"1",
+       "RadioType":"OFDM24",
+       "Encryption":"YES",
+       "Longitudde":"5320.6598N",
+       "lattitude":"00615.9477W"
+     }
+  ]
+ ```
 
 * ####_Response Code_
 200
@@ -40,6 +53,19 @@ There are six values on each line, which are as follows
   http://Dublin.wifihotspot.ie/v1/wifihotspot
 
 * ####__Response Body__
+ ```json
+ [
+    {
+       "BSSID":"00:24:92:5e:86:30",
+       "SSID":"        ",
+       "Channel":"1",
+       "RadioType":"OFDM24",
+       "Encryption":"YES",
+       "Longitudde":"5320.6598N",
+       "lattitude":"00615.9477W"
+     }
+  ]
+ ```
 
 * ####_Response Code_
 200
@@ -51,7 +77,32 @@ There are six values on each line, which are as follows
  http://Dublin.wifihotspot.ie/v1/wifihotspot/findByEncypted?encryption=no
 
 * ####__Response Body__
-
+ ```json
+ [
+    {
+       "BSSID":"00:02:6f:b1:39:0b",
+       "SSID":"        ",
+       "Channel":"6",
+       "RadioType":"OFDM24",
+       "Encryption":"None",
+       "Longitudde":"5320.6587N",
+       "lattitude":"00615.9583W"
+     }
+     {
+       "BSSID":"00:27:22:82:9a:c3",
+       "SSID":"        ",
+       "Channel":"11",
+       "RadioType":"OFDM24",
+       "Encryption":"None",
+       "Longitudde":"5320.7018N",
+       "lattitude":"00615.9498W"
+     }
+     .
+     .
+     .
+  ]
+ ```
+ 
 * ####_Response Code_
 200
 
