@@ -110,10 +110,43 @@ There are six values on each line, which are as follows
 ![alt text](GET -wifihotspot-findByChannel.png "GET /wifihotspot/findByChannel")
 
 * ####_Request Url_
- http://Dublin.wifihotspot.ie/v1/wifihotspot/findByChannel?channel=['0','1','2']
+ http://Dublin.wifihotspot.ie/v1/wifihotspot/findByChannel?channel=['6','1','11']
 
 * ####__Response Body__
-
+  ```json
+  [
+     {
+        "BSSID":""00:24:92:db:52:b0",
+        "SSID":"        ",
+        "Channel":"1",
+        "RadioType":"OFDM24",
+        "Encryption":"YES",
+        "Longitudde":"5320.6731N",
+        "lattitude":"00615.9428W"
+      }
+      {
+        "BSSID":"d6:ca:6d:11:81:75",
+        "SSID":"        ",
+        "Channel":"6",
+        "RadioType":"OFDM24",
+        "Encryption":"YES",
+        "Longitudde":"00615.9549W",
+        "lattitude":"5320.6720N"
+      }
+      {
+       "BSSID":"00:27:22:82:9a:c3",
+       "SSID":"        ",
+       "Channel":"11",
+       "RadioType":"OFDM24",
+       "Encryption":"None",
+       "Longitudde":"00615.9498W",
+       "lattitude":"5320.7018N"
+     }
+      .
+      .
+      .
+   ]
+  ```
 
 * ####_Response Code_
 >200
@@ -137,7 +170,20 @@ http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
 http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
 
 * ####__Response Body__
-
+ ```json
+  [
+     {
+        "BSSID":"00:24:92:5e:86:30",
+        "SSID":"        ",
+        "Channel":"1",
+        "RadioType":"OFDM24",
+        "Encryption":"YES",
+        "Longitude":"00615.9477W",
+        "lattitude":"5320.6598N"
+      }
+   ]
+  ```
+ 
 * ####_Response Code_
 >200
 
@@ -148,6 +194,7 @@ http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
  http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
 
 * ####__Response Body__
+>no content
 
 * ####_Response Code_
 >200
