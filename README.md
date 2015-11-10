@@ -44,7 +44,7 @@ There are six values on each line, which are as follows
  ```
 
 * ####_Response Code_
-200
+>200
 
 ###PUT / wifihotspot
 ![alt text](put-wifihotspot.png "Put /wifihotspot")
@@ -68,7 +68,7 @@ There are six values on each line, which are as follows
  ```
 
 * ####_Response Code_
-200
+>200
 
 ###GET / wifihotspot /findByEncypted 
 ![alt text](GET -wifihotspot-findByEncypted.png "GET /wifihotspot/findByEncypted")
@@ -104,7 +104,7 @@ There are six values on each line, which are as follows
  ```
  
 * ####_Response Code_
-200
+>200
 
 ###GET / wifihotspot /findByChannel 
 ![alt text](GET -wifihotspot-findByChannel.png "GET /wifihotspot/findByChannel")
@@ -113,9 +113,10 @@ There are six values on each line, which are as follows
  http://Dublin.wifihotspot.ie/v1/wifihotspot/findByChannel?channel=['0','1','2']
 
 * ####__Response Body__
+>no content
 
 * ####_Response Code_
-200
+>200
 
 ###DELETE / wifihotspot /{ BSSID} Deletes a wifi hotspot by BSSID
 ![alt text](Delete-wifihotspot-{BSSID}.png "DELETE /wifihotspot/{BSSID}")
@@ -126,7 +127,7 @@ http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
 * ####__Response Body__
 
 * ####_Response Code_
-200
+>200
 
 ###GET / wifihotspot /{ BSSID }
 ![alt text](GET  -wifihotspot-{ BSSID }.png "GET /wifihotspot/{BSSID}")
@@ -137,7 +138,7 @@ http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
 * ####__Response Body__
 
 * ####_Response Code_
-200
+>200
 
 ###POST / wifihotspot /{ BSSID }
 ![alt text](pos-wifihotspot-{BSSID}.png "POST /wifihotspot/{BSSID}")
@@ -148,7 +149,7 @@ http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
 * ####__Response Body__
 
 * ####_Response Code_
-200
+>200
 
 
   
