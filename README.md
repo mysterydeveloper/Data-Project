@@ -116,7 +116,7 @@ There are six values on each line, which are as follows
   ```json
   [
      {
-        "BSSID":""00:24:92:db:52:b0",
+        "BSSID":"00:24:92:db:52:b0",
         "SSID":"        ",
         "Channel":"1",
         "RadioType":"OFDM24",
