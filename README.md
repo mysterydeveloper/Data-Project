@@ -28,19 +28,16 @@ There are six values on each line, which are as follows
 * ####_Request Url_
  http://Dublin.wifihotspot.ie/v1/wifihotspot
 
-* ####_Usage_
- ```javacript
-  $.post(" http://Dublin.wifihotspot.ie/v1/wifihotspot", 
-  { 
-       "BSSID":"00:24:92:5e:86:30",
-       "SSID":"        ",
-       "Channel":"1",
-       "RadioType":"OFDM24",
-       "Encryption":"YES",
-       "Longitude":"00615.9477W",
-       "lattitude":"5320.6598N"
-  });
- ```
+* ####_CURL_
+curl -X POST --header "Content-Type: application/json" --header "Accept: application/json" -d "{
+ \"BSSID\":\"00:24:92:5e:86:30\",
+       \"SSID\":\"        \",
+       \"Channel\":\"1\",
+       \"RadioType\":\"OFDM24\",
+       \"Encryption\":\"YES\",
+       \"Longitude\":\"00615.9477W\",
+       \"lattitude\":\"5320.6598N\"
+}" " http://Dublin.wifihotspot.ie/v1/wifihotspot"
 
 * ####__Response Body__
  ```json
@@ -66,18 +63,16 @@ There are six values on each line, which are as follows
 * ####_Request Url_
   http://Dublin.wifihotspot.ie/v1/wifihotspot
 
-* ####_Usage_
-```javascript
- $.put("http://Dublin.wifihotspot.ie/v1/wifihotspot", {}, {
-       "BSSID":"00:24:92:5e:86:30",
-       "SSID":"        ",
-       "Channel":"2",
-       "RadioType":"OFDM24",
-       "Encryption":"YES",
-       "Longitude":"00615.9477W",
-       "lattitude":"5320.6598N"
-});
-```
+* ###_CURL_
+ curl -X PUT --header "Content-Type: application/json" --header "Accept: application/json" -d "{
+  \"BSSID\":\"00:24:92:5e:86:30\",
+        \"SSID\":\"        \",
+        \"Channel\":\"1\",
+        \"RadioType\":\"OFDM24\",
+        \"Encryption\":\"YES\",
+        \"Longitude\":\"00615.9477W\",
+        \"lattitude\":\"5320.6598N\"
+ }" " http://Dublin.wifihotspot.ie/v1/wifihotspot"
 
 * ####__Response Body__
  ```json
@@ -103,11 +98,8 @@ There are six values on each line, which are as follows
 * ####_Request Url_
  http://Dublin.wifihotspot.ie/v1/wifihotspot/findByEncypted?encryption=no
 
-* ####_Usage_
- ```javascript
- $.get(" http://Dublin.wifihotspot.ie/v1/wifihotspot/findByEncypted", {'encryption'='no' });
- 
- ```
+* ####_CURL_
+curl -X GET --header "Accept: application/json" "http://Dublin.wifihotspot.ie/v1/wifihotspot/findByEncypted?encryption=no"
 
 * ####__Response Body__
  ```json
@@ -143,12 +135,10 @@ There are six values on each line, which are as follows
 ![alt text](GET -wifihotspot-findByChannel.png "GET /wifihotspot/findByChannel")
 
 * ####_Request Url_
- http://Dublin.wifihotspot.ie/v1/wifihotspot/findByChannel?channel=['6','1','11']
+ http://Dublin.wifihotspot.ie/v1/wifihotspot/findByChannel?channel=6%2C1%2C11
 
-* ####_Usage_
- ```javascript
- $.get(" http://Dublin.wifihotspot.ie/v1/wifihotspot/findByChannel", {'channel'=['6','1','11'] });
-  ```
+* ####_CURL_
+curl -X GET --header "Accept: application/json" "http://Dublin.wifihotspot.ie/v1/wifihotspot/findByChannel?channel=6%2C1%2C11"
 
 * ####__Response Body__
   ```json
@@ -195,10 +185,8 @@ There are six values on each line, which are as follows
 * ####_Request Url_
 http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
 
-* ####_Usage_
- ```javascript
- $.delete("http://Dublin.wifihotspot.ie/v1/wifihotspot",{'BSSID': '00:24:92:5e:86:30'});
- ```
+* ####_CURL_
+* curl -X DELETE --header "Accept: application/json" "http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30"
 
 * ####__Response Body__
 >no content
@@ -212,10 +200,8 @@ http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
 * ####_Request Url_
 http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
 
-* ####_Usage_
- ```javascript
-  $.get(" http://Dublin.wifihotspot.ie/v1/wifihotspot", {'BSSID'='00:24:92:5e:86:30' });
- ```
+* ####_CURL_
+curl -X GET --header "Accept: application/json" "http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30"
 
 * ####__Response Body__
  ```json
@@ -241,10 +227,8 @@ http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
 * ####_Request Url_
  http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
 
-* ####_Usage_
- ```javacript
-  $.post("http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30", {'SSID'='HELLO WORLD' });
- ```
+* ####_CURL_
+ curl -X POST --header "Content-Type: application/x-www-form-urlencoded" --header "Accept: application/json" -d "SSID=hello&ENCRYPTION=no" "http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30"
 
 * ####__Response Body__
  ```json
@@ -265,4 +249,5 @@ http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
 >200
 
 
-  
+  ##LINKS
+  http://www.slashroot.in/curl-command-tutorial-linux-example-usage
