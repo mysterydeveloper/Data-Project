@@ -28,6 +28,9 @@ There are six values on each line, which are as follows
 * ####_Request Url_
  http://Dublin.wifihotspot.ie/v1/wifihotspot
 
+* ####_Usage_
+ 
+
 * ####__Response Body__
  ```json
  [
@@ -52,6 +55,9 @@ There are six values on each line, which are as follows
 * ####_Request Url_
   http://Dublin.wifihotspot.ie/v1/wifihotspot
 
+* ####_Usage_
+ 
+
 * ####__Response Body__
  ```json
  [
@@ -75,6 +81,9 @@ There are six values on each line, which are as follows
 
 * ####_Request Url_
  http://Dublin.wifihotspot.ie/v1/wifihotspot/findByEncypted?encryption=no
+
+* ####_Usage_
+ 
 
 * ####__Response Body__
  ```json
@@ -111,6 +120,9 @@ There are six values on each line, which are as follows
 
 * ####_Request Url_
  http://Dublin.wifihotspot.ie/v1/wifihotspot/findByChannel?channel=['6','1','11']
+
+* ####_Usage_
+ 
 
 * ####__Response Body__
   ```json
@@ -157,6 +169,9 @@ There are six values on each line, which are as follows
 * ####_Request Url_
 http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
 
+* ####_Usage_
+ 
+
 * ####__Response Body__
 >no content
 
@@ -168,6 +183,9 @@ http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
 
 * ####_Request Url_
 http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
+
+* ####_Usage_
+ 
 
 * ####__Response Body__
  ```json
@@ -192,6 +210,9 @@ http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
 
 * ####_Request Url_
  http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
+
+* ####_Usage_
+ 
 
 * ####__Response Body__
 >no content
