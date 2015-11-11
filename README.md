@@ -29,7 +29,18 @@ There are six values on each line, which are as follows
  http://Dublin.wifihotspot.ie/v1/wifihotspot
 
 * ####_Usage_
- 
+ ```javacript
+  $.post(" http://Dublin.wifihotspot.ie/v1/wifihotspot", 
+  { 
+       "BSSID":"00:24:92:5e:86:30",
+       "SSID":"        ",
+       "Channel":"1",
+       "RadioType":"OFDM24",
+       "Encryption":"YES",
+       "Longitude":"00615.9477W",
+       "lattitude":"5320.6598N"
+  });
+ ```
 
 * ####__Response Body__
  ```json
@@ -56,7 +67,17 @@ There are six values on each line, which are as follows
   http://Dublin.wifihotspot.ie/v1/wifihotspot
 
 * ####_Usage_
- 
+```javascript
+ $.put("http://Dublin.wifihotspot.ie/v1/wifihotspot", {}, {
+       "BSSID":"00:24:92:5e:86:30",
+       "SSID":"        ",
+       "Channel":"2",
+       "RadioType":"OFDM24",
+       "Encryption":"YES",
+       "Longitude":"00615.9477W",
+       "lattitude":"5320.6598N"
+});
+```
 
 * ####__Response Body__
  ```json
@@ -64,7 +85,7 @@ There are six values on each line, which are as follows
     {
        "BSSID":"00:24:92:5e:86:30",
        "SSID":"        ",
-       "Channel":"1",
+       "Channel":"2",
        "RadioType":"OFDM24",
        "Encryption":"YES",
        "Longitude":"00615.9477W",
@@ -83,7 +104,10 @@ There are six values on each line, which are as follows
  http://Dublin.wifihotspot.ie/v1/wifihotspot/findByEncypted?encryption=no
 
 * ####_Usage_
+ ```javascript
+ $.get(" http://Dublin.wifihotspot.ie/v1/wifihotspot/findByEncypted", {'encryption'='no' });
  
+ ```
 
 * ####__Response Body__
  ```json
@@ -122,7 +146,9 @@ There are six values on each line, which are as follows
  http://Dublin.wifihotspot.ie/v1/wifihotspot/findByChannel?channel=['6','1','11']
 
 * ####_Usage_
- 
+ ```javascript
+ $.get(" http://Dublin.wifihotspot.ie/v1/wifihotspot/findByChannel", {'channel'=['6','1','11'] });
+  ```
 
 * ####__Response Body__
   ```json
@@ -170,7 +196,9 @@ There are six values on each line, which are as follows
 http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
 
 * ####_Usage_
- 
+ ```javascript
+ $.delete("http://Dublin.wifihotspot.ie/v1/wifihotspot",{'BSSID': '00:24:92:5e:86:30'});
+ ```
 
 * ####__Response Body__
 >no content
@@ -185,7 +213,9 @@ http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
 http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
 
 * ####_Usage_
- 
+ ```javascript
+  $.get(" http://Dublin.wifihotspot.ie/v1/wifihotspot", {'BSSID'='00:24:92:5e:86:30' });
+ ```
 
 * ####__Response Body__
  ```json
@@ -212,11 +242,25 @@ http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
  http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
 
 * ####_Usage_
- 
+ ```javacript
+  $.post("http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30", {'SSID'='HELLO WORLD' });
+ ```
 
 * ####__Response Body__
->no content
-
+ ```json
+ [
+    {
+       "BSSID":"00:24:92:5e:86:30",
+       "SSID":"HELLO WORLD ",
+       "Channel":"2",
+       "RadioType":"OFDM24",
+       "Encryption":"YES",
+       "Longitude":"00615.9477W",
+       "lattitude":"5320.6598N"
+     }
+  ]
+ ```
+ 
 * ####_Response Code_
 >200
 
