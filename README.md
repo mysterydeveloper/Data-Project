@@ -23,7 +23,7 @@ There are six values on each line, which are as follows
 
 ## Methods
 ###POST /wifihotspot 
-![alt text](post-wifihotspot.png "Post /wifihotspot")
+![alt text](img/post-wifihotspot.png "Post /wifihotspot")
 
 * ####_Request Url_
  http://Dublin.wifihotspot.ie/v1/wifihotspot
@@ -58,7 +58,7 @@ curl -X POST --header "Content-Type: application/json" --header "Accept: applica
 >200
 
 ###PUT / wifihotspot
-![alt text](put-wifihotspot.png "Put /wifihotspot")
+![alt text](img/put-wifihotspot.png "Put /wifihotspot")
 
 * ####_Request Url_
   http://Dublin.wifihotspot.ie/v1/wifihotspot
@@ -93,7 +93,7 @@ curl -X POST --header "Content-Type: application/json" --header "Accept: applica
 >200
 
 ###GET / wifihotspot /findByEncypted 
-![alt text](GET -wifihotspot-findByEncypted.png "GET /wifihotspot/findByEncypted")
+![alt text](img/GET -wifihotspot-findByEncypted.png "GET /wifihotspot/findByEncypted")
 
 * ####_Request Url_
  http://Dublin.wifihotspot.ie/v1/wifihotspot/findByEncypted?encryption=no
@@ -132,7 +132,7 @@ curl -X GET --header "Accept: application/json" "http://Dublin.wifihotspot.ie/v1
 >200
 
 ###GET / wifihotspot /findByChannel 
-![alt text](GET -wifihotspot-findByChannel.png "GET /wifihotspot/findByChannel")
+![alt text](img/GET -wifihotspot-findByChannel.png "GET /wifihotspot/findByChannel")
 
 * ####_Request Url_
  http://Dublin.wifihotspot.ie/v1/wifihotspot/findByChannel?channel=6%2C1%2C11
@@ -180,7 +180,7 @@ curl -X GET --header "Accept: application/json" "http://Dublin.wifihotspot.ie/v1
 >200
 
 ###DELETE / wifihotspot /{ BSSID} Deletes a wifi hotspot by BSSID
-![alt text](Delete-wifihotspot-{BSSID}.png "DELETE /wifihotspot/{BSSID}")
+![alt text](img/Delete-wifihotspot-{BSSID}.png "DELETE /wifihotspot/{BSSID}")
 
 * ####_Request Url_
 http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
@@ -195,7 +195,7 @@ http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
 >200
 
 ###GET / wifihotspot /{ BSSID }
-![alt text](GET  -wifihotspot-{ BSSID }.png "GET /wifihotspot/{BSSID}")
+![alt text](img/GET  -wifihotspot-{ BSSID }.png "GET /wifihotspot/{BSSID}")
 
 * ####_Request Url_
 http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
@@ -222,7 +222,7 @@ curl -X GET --header "Accept: application/json" "http://Dublin.wifihotspot.ie/v1
 >200
 
 ###POST / wifihotspot /{ BSSID }
-![alt text](pos-wifihotspot-{BSSID}.png "POST /wifihotspot/{BSSID}")
+![alt text](img/pos-wifihotspot-{BSSID}.png "POST /wifihotspot/{BSSID}")
 
 * ####_Request Url_
  http://Dublin.wifihotspot.ie/v1/wifihotspot/00:24:92:5e:86:30
