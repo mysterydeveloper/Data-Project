@@ -4,7 +4,11 @@
 ### Manus Duggan
 
 ## Introduction
-This project provides the design and documentation for the dataset "WiFi Hotspots in Dublin City" which is available at [data.gov.ie](http://data.gov.ie)
+This project provides the design and documentation for the dataset "WiFi Hotspots in Dublin City" which is available at [data.gov.ie](http://data.gov.ie).The Designer of the dataset has said it is:
+>"A mapping of the publicly visible WiFi access points in the city centre. The dataset consists of two records, one detailing all the access points visible at any point, and secondly a list of access points and some information about them with estimated locations. The mapping was undertaken over the summer of 2013. The initial mapping and related software was implemented by Dean Leavy, a student of NUI Maynooth under the direction of Dr. Ronan Farrell. The area covered is small but we plan to extend the map and develop a crowdsourcing aspect to help keep it up to date. We welcome contributions from anyone willing to provide maps and data in the required format."
+
+###For reference, i have attached the following files:
+* [*BSSID-DATA.csv*](https://github.com/mysterydeveloper/Data-Project/blob/master/BSSID-DATA.csv).
 
 ## About the data
 This dataset was received in Comma Separated Values (CSV) format, and was downloaded from [*WiFi Hotspots in Dublin City*](https://data.gov.ie/dataset/wifi-hotspots-in-dublin-city).
@@ -63,7 +67,7 @@ curl -X POST --header "Content-Type: application/json" --header "Accept: applica
 * ####_Request Url_
   http://Dublin.wifihotspot.ie/v1/wifihotspot
 
-* ###_CURL_
+* ####_CURL_
  curl -X PUT --header "Content-Type: application/json" --header "Accept: application/json" -d "{
   \"BSSID\":\"00:24:92:5e:86:30\",
         \"SSID\":\"        \",
